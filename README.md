@@ -1,0 +1,4 @@
+phrasebook
+==========
+
+Phrasebook ionic app
