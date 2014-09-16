@@ -1,0 +1,129 @@
+/* Empty. Add your own CSS if you like */
+.select-royal{
+	color: #552bdf;
+}
+
+/* .bar.royal-gradient,  */
+/* .tabs.royal-gradient, */
+/* .royal-gradient > .tabs { */
+/* 	color: white; */
+/* 	background: rgb(138,109,233); Old browsers */
+/* 	background: -moz-linear-gradient(top,  rgba(138,109,233,1) 0%, rgba(203, 187, 255,1) 100%); FF3.6+ */
+/* 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,109,233,1)), color-stop(100%,rgba(203, 187, 255,1))); Chrome,Safari4+ */
+/* 	background: -webkit-linear-gradient(top,  rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%); Chrome10+,Safari5.1+ */
+/* 	background: -o-linear-gradient(top,  rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%); Opera 11.10+ */
+/* 	background: -ms-linear-gradient(top,  rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%); IE10+ */
+/* 	background: linear-gradient(to bottom, rgba(138,109,233,1) 10%,rgba(203, 187, 255, 1) 90%); W3C */
+/* 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); IE6-9 */
+/* 	border-top: 2px solid silver; */
+/* 	border-bottom: 2px solid silver; */
+/* } */
+
+.bar.royal-gradient {
+	color: white;
+	background: rgb(138,109,233);
+	background: -moz-linear-gradient(top, rgba(138,109,233,1) 0%, rgba(203, 187, 255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,109,233,1)), color-stop(100%,rgba(203, 187, 255,1)));
+	background: -webkit-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: -o-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: linear-gradient(to bottom, rgba(182, 183, 183, 1) 1%,rgba(147, 148, 150, 1) 98%, rgba(122, 122, 122, 1) 99%, rgba(22, 22, 22, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+	height: 46px;
+	border-bottom: 1px solid rgba(55, 69, 72, 1);
+}
+
+.tabs{
+	height: 60px;
+	border: none;
+}
+
+.tabs.tabs-dark, .tabs-dark > .tabs a.tab-item {
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+.tabs.tabs-dark, .tabs-dark > .tabs {
+/*	background: rgb(138,109,233);
+	background: -moz-linear-gradient(top, rgba(138,109,233,1) 0%, rgba(203, 187, 255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,109,233,1)), color-stop(100%,rgba(203, 187, 255,1)));
+	background: -webkit-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: -o-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: linear-gradient(to bottom, rgba(125, 125, 125, 1) 0%, rgba(93, 93, 93, 1) 50%, rgba(85, 85, 85, 1) 50%, rgba(74, 74, 74, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );	
+*/
+	background: linear-gradient(to bottom, rgba(125, 125, 125, 1) 0%, rgba(93, 93, 93, 1) 100%);
+}
+
+.tabs.tabs-dark, .tabs-dark > .tabs a.tab-item-active {
+/*	background: rgb(138,109,233);
+	background: -moz-linear-gradient(top, rgba(138,109,233,1) 0%, rgba(203, 187, 255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(138,109,233,1)), color-stop(100%,rgba(203, 187, 255,1)));
+	background: -webkit-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: -o-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(138,109,233,1) 0%,rgba(203, 187, 255,1) 100%);
+	background: linear-gradient(to bottom, rgba(168, 168, 168, 1) 0%, rgba(157, 157, 157, 1) 50%, rgba(149, 149, 149, 1) 50%, rgba(137, 137, 137, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+*/
+	background: linear-gradient(to bottom, rgba(93, 93, 93, 1) 0%, rgba(125, 125, 125, 1) 100%);
+}
+
+.pane{
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.subtitle{
+	text-align: center;
+	height: 47px;
+	padding-top: 13px;
+	font-size: 18px;
+	font-weight: bold;
+	background: linear-gradient(to bottom, rgba(23, 129, 164, 1) 0%, rgba(22, 119, 164, 1) 98%, rgba(22, 22, 22, 1) 100%);
+	color: white;
+	border-top: 1px solid rgba(55, 69, 72, 1);
+	border-bottom: 1px solid rgba(32, 104, 135, 1);
+}
+
+.darklist div{
+}
+
+.darklist div .item{
+	border-top: 1px solid rgba(171, 171, 171, 1) !important;
+}
+
+.darklist a{
+	background: linear-gradient(to bottom, 
+				rgba(100, 100, 100, 1) 0%, 
+				rgba(227, 227, 227, 1) 1%, 
+				rgba(227, 227, 227, 1) 98%, 
+				rgba(100, 100, 100, 1) 99%,
+				rgba(5, 5, 5, 1) 100%);
+/* 	background-color: rgba(227, 227, 227, 1) !important; */
+	color: rgba(100, 100, 100, 1);
+	font-weight: bold;
+}
+
+.bar h1, .bar h2, .bar h3, .bar h4, .bar h5, .bar h6, .bar .h1, .bar .h2, .bar .h3, .bar .h4, .bar .h5, .bar .h6 {
+	/*color: rgba(1, 71, 63, 0.6);
+	text-shadow: 1px 1px 0 #eee, 1px 1px 0 #eee;
+	color: rgba(0,0,0,0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);*/
+ /*   background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 1px 1px;
+    */
+    color: white;
+    text-shadow: -2px 0 #38A5FC, 0 2px #38A5FC,
+        2px 0 #38A5FC, 0 -2px #38A5FC;
+    
+}
+/*
+.white, .white:hover{
+	color: white;
+}
+*/

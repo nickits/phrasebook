@@ -1,0 +1,10 @@
+<ion-view title="PhraseGlo">
+  <ion-content class="has-header">
+  	<div class="subtitle">Categories</div>
+    <ion-list class="darklist">
+      <ion-item ng-repeat="cat in cats" type="item-text-wrap" href="#/tab/phrases">
+        {{cat.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

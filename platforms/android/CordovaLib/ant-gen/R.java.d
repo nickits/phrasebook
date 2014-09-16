@@ -1,0 +1,1 @@
+ : /Users/anelia/development/phrasebook/platforms/android/CordovaLib/ant-build/AndroidManifest.xml \
