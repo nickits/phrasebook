@@ -12,6 +12,10 @@ angular.module('starter.controllers', [])
 	  $scope.phrases = Phrases.all();
 })
 
+.controller('FavoritesCtrl', function($scope, $stateParams, Phrases) {
+	  $scope.phrases = Phrases.all();
+})
+
 .controller('SearchCtrl', function($scope, $stateParams, Phrases) {
 	  $scope.phrases = Phrases.all();
 })

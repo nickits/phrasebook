@@ -59,12 +59,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
-    .state('tab.phrases', {
+	.state('tab.phrases', {
       url: '/phrases',
       views: {
         'tab-phrases': {
           templateUrl: 'templates/tab-phrases.html',
           controller: 'PhrasesCtrl'
+        }
+      }
+    })
+	.state('tab.favorites', {
+      url: '/favorites',
+      views: {
+        'tab-favorites': {
+          templateUrl: 'templates/tab-favorites.html',
+          controller: 'FavoritesCtrl'
         }
       }
     })
@@ -81,6 +90,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       url: '/phrase/:phraseId',
       views: {
         'tab-phrases': {
+          templateUrl: 'templates/phrase-detail.html',
+          controller: 'PhraseDetailCtrl'
+        }
+      }
+    })
+    .state('tab.fav-detail', {
+      url: '/fav/:phraseId',
+      views: {
+        'tab-favorites': {
           templateUrl: 'templates/phrase-detail.html',
           controller: 'PhraseDetailCtrl'
         }
