@@ -19,3 +19,4 @@ angular.module('starter.controllers', [])
 .controller('PhraseDetailCtrl', function($scope, $stateParams, Phrases) {
 	  $scope.phrase = Phrases.get($stateParams.phraseId);
 });
+
